@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "linux-file-organizer"
+version = "1.0.0"
+description = "Sort loose files, screenshots, images and folders into tidy category folders"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "file-organizer contributors" }]
+keywords = ["files", "organizer", "downloads", "screenshots", "cli", "linux"]
+classifiers = [
+    "Environment :: Console",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Desktop Environment :: File Managers",
+    "Topic :: Utilities",
+]
+
+[project.scripts]
+organize = "organize:main"
+
+[project.urls]
+Homepage = "https://github.com/YOURNAME/file-organizer"
+Issues = "https://github.com/YOURNAME/file-organizer/issues"
+
+[tool.setuptools]
+py-modules = ["organize"]
