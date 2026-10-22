@@ -28,8 +28,8 @@ classifiers = [
 organize = "organize:main"
 
 [project.urls]
-Homepage = "https://github.com/YOURNAME/file-organizer"
-Issues = "https://github.com/YOURNAME/file-organizer/issues"
+Homepage = "https://github.com/sujalkumar1029-gif/file-organizer"
+Issues = "https://github.com/sujalkumar1029-gif/file-organizer/issues"
 
 [tool.setuptools]
 py-modules = ["organize"]

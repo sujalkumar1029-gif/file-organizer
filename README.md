@@ -76,7 +76,7 @@ Re-run with --apply to move these items.
 ### Option A — clone and link (recommended)
 
 ```bash
-git clone https://github.com/YOURNAME/file-organizer.git
+git clone https://github.com/sujalkumar1029-gif/file-organizer.git
 cd file-organizer
 mkdir -p ~/.local/bin
 ln -sf "$PWD/organize.py" ~/.local/bin/organize
@@ -91,7 +91,7 @@ organize --version
 ### Option B — pipx
 
 ```bash
-git clone https://github.com/YOURNAME/file-organizer.git
+git clone https://github.com/sujalkumar1029-gif/file-organizer.git
 pipx install ./file-organizer
 ```
 
